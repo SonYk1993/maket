@@ -204,14 +204,14 @@ h2 {
     padding-bottom: 60px;
 }
 
-.carusel_button1, .carusel_button2, .carusel_button3 {
+.carusel_button{
     width: 10px;
     height: 10px;
     background-color: #FADCD9;
     border-radius: 5px;
     margin: 0 9px;
 }
-.carusel_button1, .carusel_button2, .carusel_button3:hover{
+.carusel_button:hover{
     cursor: pointer;
 }
 
@@ -220,7 +220,7 @@ h2 {
     .carusel{
         margin-top: 90px;
     }
-    .carusel_button1, .carusel_button2, .carusel_button3{
+    .carusel_button{
         width: 6px;
         height: 6px;
         border-radius: 3px;
@@ -593,14 +593,6 @@ h2 {
     }
 }
 
-.carusel_button2 {
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: #FADCD9;
-    border-radius: 5px;
-    margin: 0 10px;
-}
 
 /* contactUs */
 
