@@ -66,7 +66,8 @@
 const buttons = document.querySelectorAll('.carusel_button')
 function changeBtnColor(event){
     buttons.forEach(elem => elem.classList.remove('btnColorActive'))
-    event.target.classList.add('btnColorActive')
+    // use currentTarget to ensure the button itself receives the class
+    event.currentTarget.classList.add('btnColorActive')
 }
 buttons.forEach((elem)=> elem.addEventListener('click', changeBtnColor))
 
